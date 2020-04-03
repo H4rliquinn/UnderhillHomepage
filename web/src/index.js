@@ -5,6 +5,7 @@ import { RedwoodProvider, FatalErrorBoundary } from '@redwoodjs/web'
 import Routes from 'src/Routes'
 
 import './index.css'
+import 'src/styles/index.scss'
 ReactDOM.render(
   <FatalErrorBoundary page={FatalErrorPage}>
     <RedwoodProvider>
