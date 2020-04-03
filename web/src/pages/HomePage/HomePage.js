@@ -1,5 +1,5 @@
 import FrameLayout from 'src/layouts/FrameLayout'
-
+import './index.scss'
 const HomePage = () => {
   return (
     <FrameLayout>
