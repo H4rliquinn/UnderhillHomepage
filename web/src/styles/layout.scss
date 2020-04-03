@@ -49,4 +49,19 @@ a {
   color:$main-font-color;
 
 }
+nav {
+  background-color: lightblue;
+  height:300px;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .logo{
+    width:30%;
+  }
+  .navlinks{
+    @include flexrow;
+    align-content: flex-start;
 
+    width:200px;
+  }
+}

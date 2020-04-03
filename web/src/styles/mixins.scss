@@ -1,0 +1,30 @@
+@mixin bdr{
+  border:1px solid purple;
+}
+
+@mixin flexrow{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@mixin center{
+  width:100%;
+  margin: 0px auto;
+}
+
+// @mixin makeButton(@color,@textColor,@w,@h,@fontSize){
+//   background:@color;
+//   color:@textColor;
+//   width:@w;
+//   height:@h;
+//   border:1px solid @color;
+//   border-radius: 5px;
+//   font-size: @fontSize;
+//   text-align: center;
+//   line-height:@h;
+//   &:hover{
+//       background:@textColor;
+//       color:@color;
+//     }
+// }
