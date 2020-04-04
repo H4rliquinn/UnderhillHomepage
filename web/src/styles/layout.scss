@@ -65,3 +65,13 @@ nav {
     width:200px;
   }
 }
+.cardList{
+  @include flexrow
+  flex-wrap:wrap;
+  .bunnyCard{
+    width:45%;
+    height:250px;
+    background-color: lightgrey;
+    margin:10px
+  }
+}
