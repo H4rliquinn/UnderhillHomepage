@@ -42,7 +42,8 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
   // font-family: 'Alice', serif;
-font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin:10px 5px;
 }
 
 a {
@@ -79,6 +80,12 @@ nav {
     }
 
   }
+}
+
+.profile{
+  margin:10px 0px 10px 10px;
+  float:right;
+  clear:none;
 }
 .cardList{
   @include flexrow
