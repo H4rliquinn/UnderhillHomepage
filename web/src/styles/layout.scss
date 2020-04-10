@@ -21,7 +21,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  // font-family: 'Russo One', sans-serif;
   color: $header-font-color;
 }
 
@@ -40,17 +41,27 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  // font-family: 'Alice', serif;
+font-family: 'ZCOOL XiaoWei', serif;
 }
 
 a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.4;
   text-decoration: none;
   color:$main-font-color;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+.logo{
 
 }
 nav {
-  background-color: lightblue;
+  background-color: white;
+  background-image: url('/src/images/header-sm.jpg');
+  background-repeat: repeat-x;
+  background-position: right bottom;
   height:300px;
   display:flex;
   flex-direction: row;
@@ -60,9 +71,12 @@ nav {
   }
   .navlinks{
     @include flexrow;
-    align-content: flex-start;
+    justify-content: flex-end;
+    width:100%;
+    a{
+      margin:5px 15px;
+    }
 
-    width:200px;
   }
 }
 .cardList{

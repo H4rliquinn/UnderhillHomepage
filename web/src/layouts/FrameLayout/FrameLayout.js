@@ -1,5 +1,5 @@
+import logo from 'src/images/logo-sm-trans.png'
 import { Link, routes } from '@redwoodjs/router'
-
 const FrameLayout = ({ children }) => {
   return (
     <>
@@ -7,12 +7,13 @@ const FrameLayout = ({ children }) => {
         <nav>
           <div className="logo">
             <Link to={routes.home()}>
-              <h2>Logo</h2>
+              <img src={logo} alt="Profile" />
             </Link>
           </div>
           <div className="navlinks">
-            <Link to={routes.home()}>home</Link>
-            <Link to={routes.sales()}>Sales</Link>
+            <Link to={routes.home()}>Home</Link>
+            <Link to={routes.sales()}>Available For Sale</Link>
+            <Link to={routes.sales()}>Coming Soon</Link>
           </div>
         </nav>
       </header>
