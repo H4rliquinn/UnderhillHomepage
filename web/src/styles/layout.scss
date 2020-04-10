@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5 {
 
 h1{
   font-size: 4.2rem;
+  margin:10px 10px;
 }
 
 h2 {
@@ -43,7 +44,7 @@ p {
   line-height: 1.4;
   // font-family: 'Alice', serif;
   font-family: 'ZCOOL XiaoWei', serif;
-  margin:10px 5px;
+  margin:10px 10px;
 }
 
 a {
@@ -54,15 +55,9 @@ a {
   font-family: 'Kaushan Script', cursive;
 }
 
-.logo{
-
-}
 nav {
-  background-color: white;
-  background-image: url('/src/images/header-sm.jpg');
-  background-repeat: repeat-x;
-  background-position: right bottom;
   height:300px;
+  width:800px;
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -80,15 +75,27 @@ nav {
     }
 
   }
+  &::after{
+    content: "";
+    height:300px;
+    width:800px;
+    background-image: url('/src/images/header-sm.jpg');
+    background-position: top left;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+  }
 }
 
+
+
 .profile{
-  margin:10px 0px 10px 10px;
+  margin:10px 0px 10px 15px;
   float:right;
   clear:none;
 }
 .cardList{
-  @include flexrow
+  @include flexrow;
   flex-wrap:wrap;
   .bunnyCard{
     width:45%;
