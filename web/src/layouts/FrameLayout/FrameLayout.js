@@ -13,7 +13,7 @@ const FrameLayout = ({ children }) => {
           <div className="navlinks">
             <Link to={routes.home()}>Home</Link>
             <Link to={routes.sales()}>Available For Sale</Link>
-            <Link to={routes.sales()}>Coming Soon</Link>
+            <Link to={routes.coming()}>Coming Soon</Link>
           </div>
         </nav>
       </header>
