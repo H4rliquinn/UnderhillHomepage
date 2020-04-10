@@ -51,7 +51,6 @@ a {
   text-decoration: none;
   color:$main-font-color;
   font-family: 'Kaushan Script', cursive;
-
 }
 
 .logo{
@@ -73,8 +72,10 @@ nav {
     @include flexrow;
     justify-content: flex-end;
     width:100%;
+    margin-right:30px;
     a{
       margin:5px 15px;
+      font-size: 2.6rem;
     }
 
   }
@@ -84,7 +85,7 @@ nav {
   flex-wrap:wrap;
   .bunnyCard{
     width:45%;
-    height:250px;
+    // height:250px;
     background-color: lightgrey;
     margin:10px
   }
