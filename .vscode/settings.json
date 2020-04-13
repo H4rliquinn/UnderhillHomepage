@@ -6,6 +6,6 @@
     "source.fixAll.eslint": true
   },
   "[prisma]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   }
 }
