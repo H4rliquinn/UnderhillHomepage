@@ -2,19 +2,12 @@
 // provider = "postgresql"
 datasource DS {
   provider = "sqlite"
-  url = "***"
+  url      = env("DATABASE_URL")
 }
 
 generator client {
   provider      = "prisma-client-js"
   binaryTargets = env("BINARY_TARGET")
-}
-
-enum Status {
-  COMING
-  AVAILABLE
-  PENDING
-  SOLD
 }
 
 model Rabbit {
@@ -23,7 +16,7 @@ model Rabbit {
   name    String?
   color   String
   parents String
-  status  Status  @default(COMING)
+  status  String
   price   Float?
   picture String
 }
