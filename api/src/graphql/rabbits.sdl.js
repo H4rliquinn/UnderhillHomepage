@@ -5,7 +5,7 @@ export const schema = gql`
     name: String
     color: String!
     parents: String!
-    status: Status!
+    status: String!
     price: Float
     picture: String!
   }
@@ -20,7 +20,7 @@ export const schema = gql`
     name: String
     color: String
     parents: String
-    status: Status
+    status: String
     price: Float
     picture: String
   }
