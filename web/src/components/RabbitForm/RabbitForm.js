@@ -19,6 +19,8 @@ const CSS = {
 
 const RabbitForm = (props) => {
   const onSubmit = (data) => {
+    console.log('RABBIT FORM', data)
+    data.price = parseFloat(data.price)
     props.onSave(data, props?.rabbit?.id)
   }
 
