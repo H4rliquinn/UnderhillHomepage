@@ -20,6 +20,11 @@ const FrameLayout = ({ children }) => {
         </mainnav>
       </header>
       <main>{children}</main>
+      <footer>
+        <Link to={routes.rabbits()}>
+          <span className="footerLink">Admin</span>
+        </Link>
+      </footer>
     </>
   )
 }

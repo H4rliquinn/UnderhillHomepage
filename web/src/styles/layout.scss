@@ -7,17 +7,12 @@ html {
 }
 
 body{
+  color: $main-font-color;
   background-color:$background-color;
   width: 100%;
   margin: 0 auto;
   max-width: 800px;
   font-family: 'Ubuntu', sans-serif;
-}
-
-
-html, body {
-
-  color: $main-font-color;
 }
 
 h1, h2, h3, h4, h5 {
@@ -87,7 +82,20 @@ mainnav {
   }
 }
 
+main{
+  min-height: 600px;
+}
 
+footer{
+  background-color: $main-font-color;
+  height:25px;
+  color:$background-color;
+  text-align:right;
+  .footerLink{
+    color:white;
+    margin-right: 20px;
+  }
+}
 
 .profile{
   margin:10px 0px 10px 15px;
