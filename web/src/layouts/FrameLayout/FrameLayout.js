@@ -1,10 +1,12 @@
-import logo from 'src/images/logo-sm-trans.png'
 import { Link, routes } from '@redwoodjs/router'
+
+import logo from 'src/images/logo-sm-trans.png'
+
 const FrameLayout = ({ children }) => {
   return (
     <>
       <header>
-        <nav>
+        <mainnav>
           <div className="logo">
             <Link to={routes.home()}>
               <img src={logo} alt="Profile" />
@@ -15,7 +17,7 @@ const FrameLayout = ({ children }) => {
             <Link to={routes.sales()}>Available For Sale</Link>
             <Link to={routes.coming()}>Coming Soon</Link>
           </div>
-        </nav>
+        </mainnav>
       </header>
       <main>{children}</main>
     </>
