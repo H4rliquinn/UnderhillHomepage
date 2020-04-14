@@ -81,10 +81,9 @@ mainnav {
     z-index: -1;
   }
 }
-
-main{
-  min-height: 600px;
-}
+.mainContent{
+    min-height: 600px;
+  }
 
 footer{
   background-color: $main-font-color;
