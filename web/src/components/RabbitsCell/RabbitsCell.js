@@ -1,5 +1,4 @@
 import { Link, routes } from '@redwoodjs/router'
-
 import Rabbits from 'src/components/Rabbits'
 
 export const QUERY = gql`
