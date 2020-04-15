@@ -50,7 +50,7 @@ a {
   font-family: 'Kaushan Script', cursive;
 }
 
-mainnav {
+nav.mainNav {
   height:300px;
   width:800px;
   display:flex;
@@ -59,6 +59,7 @@ mainnav {
   .logo{
     width:30%;
   }
+
   .navlinks{
     @include flexrow;
     justify-content: flex-end;

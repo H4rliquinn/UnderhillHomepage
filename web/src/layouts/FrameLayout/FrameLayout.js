@@ -6,7 +6,7 @@ const FrameLayout = ({ children }) => {
   return (
     <>
       <header>
-        <mainnav>
+        <nav className="mainNav">
           <div className="logo">
             <Link to={routes.home()}>
               <img src={logo} alt="Profile" />
@@ -17,7 +17,7 @@ const FrameLayout = ({ children }) => {
             <Link to={routes.sales()}>Available For Sale</Link>
             <Link to={routes.coming()}>Coming Soon</Link>
           </div>
-        </mainnav>
+        </nav>
       </header>
       <main className="mainContent">{children}</main>
       <footer>
