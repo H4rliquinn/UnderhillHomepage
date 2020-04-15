@@ -2,7 +2,7 @@ import RabbitCard from 'src/components/RabbitCard'
 
 export const QUERY = gql`
   query SALES {
-    rabbits(status: "AVAILABLE") {
+    rabbits(status: "COMING") {
       id
       name
       color

@@ -1,28 +1,11 @@
 import FrameLayout from 'src/layouts/FrameLayout'
-
+import ComingCell from 'src/components/ComingCell'
 const ComingPage = () => {
   return (
     <FrameLayout>
       <h1>Coming Soon Page</h1>
       <p>Bunns to come</p>
-      <div className="cardList">
-        <div className="bunnyCard">
-          <h3>Somebunny</h3>
-          <p>This is a bunny card</p>
-        </div>
-        <div className="bunnyCard">
-          <h3>Somebunny</h3>
-          <p>This is a bunny card</p>
-        </div>
-        <div className="bunnyCard">
-          <h3>Somebunny</h3>
-          <p>This is a bunny card</p>
-        </div>
-        <div className="bunnyCard">
-          <h3>Somebunny</h3>
-          <p>This is a bunny card</p>
-        </div>
-      </div>
+      <ComingCell />
     </FrameLayout>
   )
 }
