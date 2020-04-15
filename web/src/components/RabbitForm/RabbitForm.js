@@ -105,6 +105,20 @@ const RabbitForm = (props) => {
         <FieldError name="status" className={CSS.errorMessage} />
 
         <Label
+          name="pending"
+          className={CSS.label}
+          errorClassName={CSS.labelError}
+        />
+        <TextField
+          name="pending"
+          defaultValue={props.rabbit?.pending}
+          className={CSS.input}
+          errorClassName={CSS.inputError}
+          validation={{ required: true }}
+        />
+        <FieldError name="pending" className={CSS.errorMessage} />
+
+        <Label
           name="price"
           className={CSS.label}
           errorClassName={CSS.labelError}

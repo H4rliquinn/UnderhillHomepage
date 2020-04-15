@@ -56,6 +56,10 @@ const Rabbit = ({ rabbit }) => {
               <td className="p-3">{rabbit.status}</td>
             </tr>
             <tr className="odd:bg-gray-100 even:bg-white border-t">
+              <td className="font-semibold p-3 text-right md:w-1/5">pending</td>
+              <td className="p-3">{rabbit.pending}</td>
+            </tr>
+            <tr className="odd:bg-gray-100 even:bg-white border-t">
               <td className="font-semibold p-3 text-right md:w-1/5">price</td>
               <td className="p-3">{rabbit.price}</td>
             </tr>
@@ -63,7 +67,6 @@ const Rabbit = ({ rabbit }) => {
               <td className="font-semibold p-3 text-right md:w-1/5">picture</td>
               <td className="p-3">{rabbit.picture}</td>
             </tr>
-            
           </tbody>
         </table>
       </div>

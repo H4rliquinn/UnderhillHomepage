@@ -51,6 +51,7 @@ const RabbitsList = ({ rabbits }) => {
             <th className="font-semibold text-left p-3">color</th>
             <th className="font-semibold text-left p-3">parents</th>
             <th className="font-semibold text-left p-3">status</th>
+            <th className="font-semibold text-left p-3">pending</th>
             <th className="font-semibold text-left p-3">price</th>
             <th className="font-semibold text-left p-3">picture</th>
             <th className="font-semibold text-left p-3">&nbsp;</th>
@@ -68,6 +69,7 @@ const RabbitsList = ({ rabbits }) => {
               <td className="p-3">{truncate(rabbit.color)}</td>
               <td className="p-3">{truncate(rabbit.parents)}</td>
               <td className="p-3">{truncate(rabbit.status)}</td>
+              <td className="p-3">{truncate(rabbit.pending)}</td>
               <td className="p-3">{truncate(rabbit.price)}</td>
               <td className="p-3">{truncate(rabbit.picture)}</td>
               <td className="p-3 pr-4 text-right whitespace-no-wrap">

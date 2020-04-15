@@ -7,6 +7,7 @@ export const QUERY = gql`
       color
       parents
       status
+      pending
       price
       picture
     }

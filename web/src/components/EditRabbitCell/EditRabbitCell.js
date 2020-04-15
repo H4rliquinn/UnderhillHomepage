@@ -11,6 +11,7 @@ export const QUERY = gql`
       color
       parents
       status
+      pending
       price
       picture
     }
@@ -43,7 +44,12 @@ export const Success = ({ rabbit }) => {
         <h2 className="text-sm font-semibold">Edit Rabbit {rabbit.id}</h2>
       </header>
       <div className="bg-gray-100 p-4">
-        <RabbitForm rabbit={rabbit} onSave={onSave} error={error} loading={loading} />
+        <RabbitForm
+          rabbit={rabbit}
+          onSave={onSave}
+          error={error}
+          loading={loading}
+        />
       </div>
     </div>
   )

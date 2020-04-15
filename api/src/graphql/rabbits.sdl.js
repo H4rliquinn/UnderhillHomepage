@@ -13,7 +13,6 @@ export const schema = gql`
 
   type Query {
     rabbits(status: String): [Rabbit]
-    rabbits: [Rabbit]
     rabbit(id: Int!): Rabbit
   }
 
