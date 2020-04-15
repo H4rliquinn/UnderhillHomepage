@@ -17,6 +17,7 @@ model Rabbit {
   color   String
   parents String
   status  String
+  pending  String?
   price   Float?
   picture String
 }

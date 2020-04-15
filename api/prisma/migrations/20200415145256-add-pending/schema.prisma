@@ -2,7 +2,7 @@
 // provider = "postgresql"
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -17,6 +17,7 @@ model Rabbit {
   color   String
   parents String
   status  String
+  pending  String?
   price   Float?
   picture String
 }

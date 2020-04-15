@@ -6,11 +6,13 @@ export const schema = gql`
     color: String!
     parents: String!
     status: String!
+    pending: String
     price: Float
     picture: String!
   }
 
   type Query {
+    rabbits(status: String): [Rabbit]
     rabbits: [Rabbit]
     rabbit(id: Int!): Rabbit
   }
@@ -21,6 +23,7 @@ export const schema = gql`
     color: String
     parents: String
     status: String
+    pending: String
     price: Float
     picture: String
   }

@@ -1,7 +1,14 @@
 export const QUERY = gql`
-  query {
-    sales {
+  query SALES {
+    rabbits(status: "AVAILABLE") {
       id
+      eartag
+      name
+      color
+      parents
+      status
+      price
+      picture
     }
   }
 `

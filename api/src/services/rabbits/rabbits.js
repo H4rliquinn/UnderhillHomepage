@@ -1,7 +1,9 @@
 import { db } from 'src/lib/db'
 
-export const rabbits = () => {
-  return db.rabbit.findMany()
+export const rabbits = ({ status }) => {
+  return db.rabbit.findMany({
+    where: { status },
+  })
 }
 
 export const rabbit = ({ id }) => {
