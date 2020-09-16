@@ -2,11 +2,13 @@
 // provider = "postgresql"
 datasource DS {
   provider = ["sqlite","postgresql"]
+  // url      = "file:./dev.db"
   url      = env("DATABASE_URL")
 }
 
 generator client {
   provider      = "prisma-client-js"
+  // binaryTargets = "native"
   binaryTargets = env("BINARY_TARGET")
 }
 

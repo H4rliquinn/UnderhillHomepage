@@ -12,7 +12,7 @@
         "source": "DS"
       },
       "argument": "provider",
-      "value": "\"sqlite\""
+      "value": "[\"sqlite\", \"postgresql\"]"
     },
     {
       "tag": "CreateArgument",
@@ -21,7 +21,7 @@
         "source": "DS"
       },
       "argument": "url",
-      "value": "env(\"DATABASE_URL\")"
+      "value": "\"***\""
     },
     {
       "tag": "CreateModel",
@@ -115,6 +115,13 @@
       "field": "status",
       "type": "String",
       "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Rabbit",
+      "field": "pending",
+      "type": "String",
+      "arity": "Optional"
     },
     {
       "tag": "CreateField",
