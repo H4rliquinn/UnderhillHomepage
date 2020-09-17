@@ -1721,7 +1721,7 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@redwoodjs/api@^0.15.0":
+"@redwoodjs/api@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.15.3.tgz#27cb63f2d58e4c9392bc701626f000cb98025ccb"
   integrity sha512-Dfoj8qpUn8tUdHlTPyCy6VwO2QkNAgi2Up2Wx9X99KBVikPu7zX+IaZ/MXytFGKjd4PDlDJhBGvl+hpP3Y3pHw==
@@ -1771,7 +1771,7 @@
     terminal-link "^2.1.1"
     yargs "^15.3.1"
 
-"@redwoodjs/core@^0.15.0":
+"@redwoodjs/core@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/core/-/core-0.15.3.tgz#557c0c9e1e4f79fe552edce467c053e66e69b65c"
   integrity sha512-BV53/1oZgQk02gL+i361Tg89hU8IfjA1AnlE/piUMxcOge9goh/PmziReEDVXtVof1n0A39fiylZutV3xRKuvQ==
@@ -1899,7 +1899,7 @@
     findup-sync "^4.0.0"
     toml "^3.0.0"
 
-"@redwoodjs/router@^0.15.0":
+"@redwoodjs/router@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.15.3.tgz#4a47b4e012a3857e413a304d2e76416ddd57dd78"
   integrity sha512-MLVeKm2vlcQ/uRvH7h7fLFvlzJNORDrlmoe4O+r4vEVsL+qW86JgrpHe9KdazoA4Y6LTwNDyF7Lu1s8Y6yivhw==
@@ -1941,7 +1941,7 @@
     "@types/react" "16.9.38"
     msw "^0.20.0"
 
-"@redwoodjs/web@^0.15.0", "@redwoodjs/web@^0.15.3":
+"@redwoodjs/web@^0.15.3":
   version "0.15.3"
   resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.15.3.tgz#25755cdf479b579f97341085271f28df164b15d2"
   integrity sha512-OWWGNwGI6/kVwkC6hovETACgl92Yv8PWlIWNxa9iaRZ7/VTqRH8/MZrUKvhIO3tz50KgGs9XIkLua9KiquMeGQ==
